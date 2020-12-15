@@ -1,0 +1,54 @@
+/* 
+$bleu: #0065FC;
+$bleuclair: #DEEBFF;
+$gris: #F2F2F2;
+ */
+
+ @font-face {
+    font-family: "Raleway";
+    src: url("/Fonts/static/Raleway-Light.ttf");
+  }
+
+.raleway {
+    font-family: "Raleway";
+}
+.flexrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.liens {
+    width: 20%;
+    justify-content: space-between;
+}
+
+.hergement:hover {
+    border-top: 2px solid blue;
+}
+
+.activite:hover {
+    border-top: 2px solid blue;
+}
+
+.inscription:hover {
+    border-top: 2px solid blue;
+}
+
+.recherche {
+    border: 2px solid green;
+    border-radius: 10px;
+    width: min-content;
+}
+
+.icone {
+    background-color: #F2F2F2;
+}
+
+.bouton {
+    background-color: #0065FC;
+    color: white;
+}
