@@ -9,46 +9,158 @@ $gris: #F2F2F2;
     src: url("/Fonts/static/Raleway-Light.ttf");
   }
 
+
+  body {
+      margin-left: 50px;
+      margin-top: 0px;
+  };
+
 .raleway {
     font-family: "Raleway";
 }
+
+.bold {
+    font-weight: bold;
+}
+
 .flexrow {
     display: flex;
     flex-direction: row;
+    top: 0;
+    margin: 0px;
 }
 
 .header {
+    top: 0;
+    margin-top: 0px;
     justify-content: space-between;
+}
+
+.logo {
+    margin-top: 10px;
+    height: 35px;
+    width: 70px;
 }
 
 .liens {
-    width: 20%;
+    top: 0;
+    width: 18%;
+    margin: 0px;
     justify-content: space-between;
 }
 
-.hergement:hover {
-    border-top: 2px solid blue;
+.inscription {
+    font-weight: bold;
 }
 
-.activite:hover {
-    border-top: 2px solid blue;
-}
+.hover:hover {
+    color:  #0065FC;
+};
 
-.inscription:hover {
-    border-top: 2px solid blue;
+.midtext {
+    line-height: 3px;
 }
 
 .recherche {
-    border: 2px solid green;
-    border-radius: 10px;
-    width: min-content;
+    width: 40%;
+    margin-top: 10px;
 }
 
 .icone {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.loc {
+    height: 20px;
+    width: 20px;
+    margin-left: 30%;
+    margin-top: 20%; 
+}
+
+.rech {
+    height: 35px;
+}
+
+.input {
+    min-width: 50%;
+    border: none;
+}
+
+.btn {
+    background-color: #0065FC;
+    border: none;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.icone {
+    height: 100%;
+    min-width: 15%;
     background-color: #F2F2F2;
 }
 
 .bouton {
     background-color: #0065FC;
     color: white;
+}
+
+.filtre {
+    height: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filtrebordure {
+    width: 15%;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+}
+
+.logofiltre {
+    background-color: #DEEBFF;
+    border-radius: 20px;
+}
+
+.textfiltre {
+    margin: auto;
+}
+
+.nblogements {
+    font-size: 12px;
+}
+
+.blochebergements {
+    width: 100%;
+    border: 2px solid black;
+    justify-content: space-between;
+}
+
+.blocville {
+    width: 50%;
+}
+
+.blocpopulaire {
+    width: 30%;
+}
+.blocville, .blocpopulaire {
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.imgheber {
+    height: 150px;
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.carre01 {
+    background-color: white;
+    height: 100%;
+    width: 30%;
 }
