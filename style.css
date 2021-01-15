@@ -15,6 +15,10 @@ $gris: #F2F2F2;
       margin-top: 0px;
   };
 
+.bold {
+    font-weight: bold;
+}
+
 .raleway {
     font-family: "Raleway";
 }
@@ -28,6 +32,10 @@ $gris: #F2F2F2;
     flex-direction: row;
     top: 0;
     margin: 0px;
+}
+
+.justify-space-between {
+    justify-content: space-between;
 }
 
 .header {
@@ -135,12 +143,13 @@ $gris: #F2F2F2;
 
 .bloc-hebergements {
     width: 100%;
+    height: 100%;
     border: 2px solid black;
     justify-content: space-between;
 }
 
 .bloc-ville {
-    width: 50%;
+    width: 65%;
 }
 
 .bloc-populaire {
@@ -153,20 +162,27 @@ $gris: #F2F2F2;
 }
 
 .img-heber {
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin: 0 auto;
     margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .carre-01 {
     background-color: white;
     border-radius: 20px;
-    height: 100%;
+    height: 50%;
     width: 25%;
-    min-width: 25%;
+    min-width: 26%;
     display: flex;
     flex-direction: column;
+    line-height: 5px;
+}
+
+.heber-txt {
+    margin-left: 2%;
+    margin-top: 2%;
 }
