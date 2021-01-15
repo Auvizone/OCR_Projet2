@@ -23,7 +23,7 @@ $gris: #F2F2F2;
     font-weight: bold;
 }
 
-.flexrow {
+.flex-row {
     display: flex;
     flex-direction: row;
     top: 0;
@@ -57,7 +57,7 @@ $gris: #F2F2F2;
     color:  #0065FC;
 };
 
-.midtext {
+.mid-text {
     line-height: 3px;
 }
 
@@ -114,53 +114,59 @@ $gris: #F2F2F2;
     justify-content: space-between;
 }
 
-.filtrebordure {
+.filtre-bordure {
     width: 15%;
     border: 2px solid #F2F2F2;
     border-radius: 20px;
 }
 
-.logofiltre {
+.logo-filtre {
     background-color: #DEEBFF;
     border-radius: 20px;
 }
 
-.textfiltre {
+.text-filtre {
     margin: auto;
 }
 
-.nblogements {
+.nb-logements {
     font-size: 12px;
 }
 
-.blochebergements {
+.bloc-hebergements {
     width: 100%;
     border: 2px solid black;
     justify-content: space-between;
 }
 
-.blocville {
+.bloc-ville {
     width: 50%;
 }
 
-.blocpopulaire {
+.bloc-populaire {
     width: 30%;
 }
-.blocville, .blocpopulaire {
+.bloc-ville, .bloc-populaire {
     background-color: #F2F2F2;
     padding: 20px;
     border-radius: 20px;
 }
 
-.imgheber {
+.img-heber {
     height: 150px;
     width: 200px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin: 0 auto;
+    margin-top: 5px;
 }
 
-.carre01 {
+.carre-01 {
     background-color: white;
+    border-radius: 20px;
     height: 100%;
-    width: 30%;
+    width: 25%;
+    min-width: 25%;
+    display: flex;
+    flex-direction: column;
 }
