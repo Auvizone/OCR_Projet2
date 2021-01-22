@@ -27,6 +27,10 @@ $gris: #F2F2F2;
     font-weight: bold;
 }
 
+.margin-auto {
+    margin: auto;
+}
+
 .flex-row {
     display: flex;
     flex-direction: row;
@@ -87,11 +91,15 @@ $gris: #F2F2F2;
 }
 
 .rech {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #F2F2F2;
     height: 35px;
+    width: 35px;
 }
 
 .input {
-    min-width: 50%;
+    min-width: 20%;
     border: none;
 }
 
@@ -115,6 +123,7 @@ $gris: #F2F2F2;
 }
 
 .filtre {
+    margin-top: 2%;
     height: 40px;
     width: 60%;
     display: flex;
@@ -130,7 +139,6 @@ $gris: #F2F2F2;
 
 .logo-filtre {
     background-color: #DEEBFF;
-    border-radius: 20px;
 }
 
 .text-filtre {
@@ -146,6 +154,14 @@ $gris: #F2F2F2;
     height: 100%;
     border: 2px solid black;
     justify-content: space-between;
+}
+
+.stars {
+    color: #0065FC;
+}
+
+.stars-grey {
+    color: gray
 }
 
 .bloc-ville {
