@@ -15,8 +15,18 @@ $gris: #F2F2F2;
       margin-top: 0px;
   };
 
+.box-shadow {
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
+}
+
+.margin-top {
+    margin-top: 5%;
+}
+
 .bold {
     font-weight: bold;
+    font-size: 18px;
 }
 
 .raleway {
@@ -38,7 +48,13 @@ $gris: #F2F2F2;
     margin: 0px;
 }
 
+.flex-column {
+    display:flex;
+    flex-direction: column;
+}
+
 .justify-space-between {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -152,8 +168,7 @@ $gris: #F2F2F2;
 .bloc-hebergements {
     width: 100%;
     height: 100%;
-    border: 2px solid black;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .stars {
@@ -168,8 +183,13 @@ $gris: #F2F2F2;
     width: 65%;
 }
 
+.heber-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .bloc-populaire {
-    width: 30%;
+    width: 25%;
 }
 .bloc-ville, .bloc-populaire {
     background-color: #F2F2F2;
@@ -177,28 +197,179 @@ $gris: #F2F2F2;
     border-radius: 20px;
 }
 
-.img-heber {
-    height: 200px;
-    width: 300px;
+.img-content {
+    height: 65%;
+    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin: 0 auto;
-    margin-top: 5px;
     margin-bottom: 10px;
+}
+
+.img-popu {
+    height: 250px;
+    width: 70%;
+    border-radius: 20px;
 }
 
 .carre-01 {
     background-color: white;
     border-radius: 20px;
-    height: 50%;
-    width: 25%;
-    min-width: 26%;
+    height: 300px;
+    width: 30%;
+    min-width: 300px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     line-height: 5px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
+}
+
+
+.carre-02 {
+    background-color: white;
+    border-radius: 20px;
+    height: 30%;
+    width: 450px;
+    min-width: 300px;
+    max-height: 500px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    line-height: 5px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
+}
+
+.text-02 {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-03 {
+    justify-content: space-between;
 }
 
 .heber-txt {
     margin-left: 2%;
     margin-top: 2%;
+}
+
+.footer {
+    background-color: #F2F2F2;
+}
+
+.columns {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.border-radius {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.bloc-activite {
+    height: 500px;
+    width: 100%;
+}
+
+.box-activite {
+    height: 100%;
+    justify-content: space-around;
+}
+
+.box-general {
+    width: 23%;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
+}
+
+.text-acti {
+    margin: 0;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.box-high {
+    height: 90%;
+}
+
+.box-small {
+    height: 45%;
+}
+
+.img-port {
+    height: 90%;
+    width: 100%;
+}
+
+.double-box {
+    height: 90%;
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-fort {
+    height: 60%;
+    width: 100%;
+}
+
+.box-iles {
+    height: 35%;
+    width: 100%;
+}
+
+.img-fort {
+    height: 80%;
+    width: 100%;
+}
+
+.img-iles {
+    height: 70%;
+    width: 100%;
+}
+
+.box-parc {
+    height: 90%;
+    width: 20%;
+}
+
+.img-parc {
+    height: 90%;
+    width: 100%;
+}
+
+.box-dame {
+    height: 47%;
+    width: 100%;
+}
+
+.img-dame {
+    height: 80%;
+    width: 100%;
+}
+
+.box-longchamp {
+    height: 47%;
+    width: 100%;
+}
+
+.img-longchamp {
+    height: 80%;
+    width: 100%;
+}
+
+.link-box {
+    line-height: 20px;
+}
+.link {
+    text-decoration: none;
+    color: black;
 }
