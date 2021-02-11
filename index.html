@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/04ed5bdc1f.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Reservia - Marseille</title>
 </head>
 
 <body>
@@ -15,16 +15,16 @@
             <img class="logo" src="./images/logo/Reservia@3x.png" alt="logo">
         </div>
         <div class="liens flex-row raleway">
-            <p class="hebergement hover hide-media">Hébergements</p>
-            <p class="activite hover hide-media">Activités</p>
+            <a href="#hebergement" class="hebergement hover hide-media">Hébergements</a>
+            <a href="#activite" class="hebergement hover hide-media">Activités</a>
             <p class="inscription hover">S'inscrire</p>
         </div>
     </div>
 
     <div class="trouver-heber margin-left">
         <div class="mid-text raleway">
-            <p class="bold">Trouvez votre hébergement pour des vacances de rêve</p>
-            <p>En plein centre ville ou pleine nature</p>
+            <p class="bold margin-top-p">Trouvez votre hébergement pour des vacances de rêve</p>
+            <p class="margin-top-p">En plein centre ville ou pleine nature</p>
         </div>
         <div class="recherche flex-row">
             <div class="rech flex-row">
@@ -35,24 +35,25 @@
     </div>
     </div>
 
-
-    <div class="filtre margin-left">
-        <p class="raleway bold">Filtres</p>
-        <div class="border-grey filtre-bordure flex-row">
-            <div class="logo-filtre margin-auto"><i class="fas fa-money-bill-wave"></i></div>
-            <p class="text-filtre">Economique</p>
-        </div>
-        <div class="border-grey filtre-bordure flex-row">
-            <div class="logo-filtre margin-auto"><i class="fas fa-male"></i></div>
-            <p class="text-filtre">Familial</p>
-        </div>
-        <div class="border-grey filtre-bordure flex-row">
-            <div class="logo-filtre margin-auto"><i class="fas fa-heart"></i></div>
-            <p class="text-filtre">Romantique</p>
-        </div>
-        <div class="border-grey filtre-bordure flex-row">
-            <div class="logo-filtre margin-auto"><i class="fas fa-dog"></i></div>
-            <p class="text-filtre">Animaux autorisés</p>
+    <div class="raleway test1 margin-left justify-space-between">
+        <p class="test2 bold">Filtres</p>
+        <div class="flex-row test7">
+                <div class="test4 flex-row">
+                    <div class="test5"><i class="fas fa-money-bill-wave"></i></div>
+                    <p class="test3 bold">Economique</p>
+                </div>
+            <div class="test4 flex-row">
+                <div class="test6"><i class="fas fa-male"></i></div>
+                <p class="test3 bold">Familial</p>
+            </div>
+            <div class="test4 flex-row">
+                <div class="test5"><i class="fas fa-heart"></i></div>
+                <p class="test3 bold">Romantique </p>
+            </div>
+            <div class="test4 flex-row">
+                <div class="test5"><i class="fas fa-dog"></i></div>
+                <p class="test3 bold">Animaux Autorisés</p>
+            </div>
         </div>
     </div>
 
@@ -60,7 +61,7 @@
         <p><i class="fas fa-info logo-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
     </div>
 
-    <div class="bloc-hebergements flex-row raleway">
+    <div id="hebergement" class="bloc-hebergements flex-row raleway">
         <div class="bloc-ville">
             <p class="bold">Hébergements à Marseille</p>
             <div class="heber-box flex-row justify-space-between">
@@ -120,7 +121,10 @@
             <p class="bold">Afficher plus</p>
         </div>
         <div class="bloc-populaire raleway margin-top-media">
-            <p class="bold">Les plus populaires</p>
+            <div class="flex-row test9">
+                <p class="bold">Les plus populaires</p>
+                <i class="fas fa-chart-line test9"></i>
+            </div>
             <div class="popu-box justify-space-between flex-column">
                 <div class="carre-02">
                     <img class="img-popu" src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
@@ -166,7 +170,7 @@
         </div>
     </div>
 
-    <div class="box-general raleway">
+    <div id="activite" class="box-general raleway">
         <p class="bold">Activités</p>
         <div class="box-general2">
             <div class="column-solo box-shadow">

@@ -9,6 +9,9 @@ $gris: #F2F2F2;
     src: url("/Fonts/static/Raleway-Light.ttf");
   }
 
+  body {
+      margin: 0px;
+  }
 
 .margin-left {
     margin-left: 50px !important;
@@ -21,6 +24,10 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
 
 .margin-top {
     margin-top: 5%;
+}
+
+.margin-top-p {
+    margin-top: 10px;
 }
 
 .bold {
@@ -62,6 +69,78 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
     justify-content: space-between;
 }
 
+.hebergement {
+    text-decoration: none;
+    color: black;
+    font-family: "Raleway";
+    margin: auto 0;
+}
+
+.test1 {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+.test2 {
+    margin: auto 0;
+    margin-right: 30px;
+}
+
+.test3 {
+    margin: auto 10px;
+}
+
+.test4 {
+    border-radius: 20px;
+    border: 2px solid grey;
+    margin-top: 10px;
+}
+
+.test7 :hover, .test5 :hover {
+    background-color: #0065FC;
+    color: white;
+}
+
+.test9 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+/* .test4 :hover {
+    background-color: #DEEBFF;
+    color: #0065FC
+} */
+
+.test3 :hover {
+    background-color: #0065FC;
+    color: white;
+}
+
+.test5 {
+    margin: auto;
+    padding: 8px;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    color: #0065FC;
+}
+
+.test6 {
+    margin: auto;
+    padding: 8px 14px;
+    background-color: #DEEBFF;
+    border-radius: 100%;
+    color: #0065FC;
+}
+
+.test7 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .logo {
     margin-top: 10px;
     height: 35px;
@@ -77,6 +156,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
 
 .inscription {
     font-weight: bold;
+    right: 0;
 }
 
 .hover:hover {
@@ -105,8 +185,8 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
 }
 
 .rech {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     background-color: #F2F2F2;
     height: 35px;
     width: 35px;
@@ -115,6 +195,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
 .input {
     min-width: 20%;
     border: none;
+    outline: none;
 }
 
 .btn {
@@ -124,6 +205,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
     padding: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    outline: none;
 }
 
 .icone {
@@ -135,36 +217,6 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
 .bouton {
     background-color: #0065FC;
     color: white;
-}
-
-.filtre {
-    margin-top: 2%;
-    height: 20%;
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.border-grey {
-    border: 2px solid grey;
-    border-radius: 20px;
-}
-
-
-.logo-filtre {
-    background-color: #DEEBFF;
-    padding: 9px;
-    border-radius: 20px;
-    border-right: 2px solid grey;
-    color: #0065FC;
-}
-
-.text-filtre {
-    margin: auto;
-    padding: 8px;
-    margin-left: 5%;
 }
 
 .nb-logements {
@@ -285,6 +337,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
     justify-content: center;
     background-color: #F2F2F2;
     width: 100%;
+    padding-bottom: 2%;
 }
 
 .columns {
@@ -355,12 +408,21 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
 
 @media (max-width: 600px) {
 
+    body {
+        margin: 0;
+    }
+
     .bloc-ville {
         width: 100%;
         background-color: white;
     }
 
     .bloc-populaire{
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .bloc-hebergements {
         width: 100%;
     }
 
@@ -385,7 +447,7 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
     }
 
     .margin-left {
-        margin-left: 0px !important;
+        margin-left: 5% !important;
     }
 
     .margin-left-media {
@@ -401,6 +463,12 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
         margin-top: 5%;
     }
 
+    .test1 {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
 
 .box-general {
