@@ -463,6 +463,10 @@ box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
         margin-top: 5%;
     }
 
+    .liens {
+        width: 40%;
+    }
+
 }
 
 @media (max-width: 600px) {
