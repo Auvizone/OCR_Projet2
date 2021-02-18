@@ -41,10 +41,6 @@ $gris: #F2F2F2;
     font-family: "Raleway";
 }
 
-.bold {
-    font-weight: bold;
-}
-
 .margin-auto {
     margin: auto;
 }
@@ -191,7 +187,6 @@ $gris: #F2F2F2;
 
 }
 
-
 .inscription {
     font-weight: bold;
     right: 0;
@@ -299,6 +294,7 @@ $gris: #F2F2F2;
 .bloc-populaire {
     width: 30%;
 }
+
 .bloc-ville, .bloc-populaire {
     background-color: #F2F2F2;
     padding: 20px;
