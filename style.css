@@ -102,7 +102,7 @@ $gris: #F2F2F2;
     cursor: pointer;
 }
 
-.test9 {
+.popu-general {
     display: flex;
     justify-content: space-between;
     margin: auto 0;
@@ -561,19 +561,24 @@ $gris: #F2F2F2;
         margin-top: 5%;
     }
 
-    .test1 {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
     .recherche {
         width: 300px;
     }
 
     .input {
         width: 150px;
+    }
+
+    .column-solo {
+        height: 200px !important;
+    }
+
+    .box-port {
+        height: 80% !important;
+    }
+
+    .box-parc {
+        height: 80% !important;
     }
 }
 
