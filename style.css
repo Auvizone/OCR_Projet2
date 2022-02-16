@@ -37,6 +37,10 @@ $gris: #F2F2F2;
     font-weight: bold;
 }
 
+.titre-heber {
+    font-size: 24px;
+}
+
 .raleway {
     font-family: "Raleway";
 }
@@ -360,6 +364,10 @@ $gris: #F2F2F2;
 
 .heber-txt {
     margin-left: 2%;
+    margin-top: 3%;
+}
+
+.margin-top {
     margin-top: 2%;
 }
 
@@ -427,7 +435,7 @@ $gris: #F2F2F2;
 }
 
 .link-box {
-    line-height: 20px;
+    line-height: 30px;
     margin-top: 2%;
     display: flex;
     flex-direction: column;
@@ -435,151 +443,6 @@ $gris: #F2F2F2;
 .link {
     text-decoration: none;
     color: black;
-}
-
-@media (max-width: 1030px) {
-    .bloc-ville {
-        width: 100%;
-    }
-
-    .bloc-populaire {
-        width: 100%;
-        margin-top: 5%;
-    }
-
-    .carre-02 {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .column-duo {
-        margin-top: 10px;
-    }
-
-    .test1 {
-        width: 90%;
-    }
-
-    #box-mouettes {
-        margin-top: 5%;
-    }
-
-    .liens {
-        width: 40%;
-    }
-
-    .filtres {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-    }
-
-}
-
-@media (max-width: 600px) {
-
-    body {
-        margin: 0;
-    }
-
-    .display-mobile {
-        display: flex;
-    }
-
-    .filtres {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-    }
-
-    .heber-box {
-        justify-content: center;
-    }
-
-    .liens {
-        width: 20%;
-    }
-
-    .bloc-ville {
-        width: 100%;
-        background-color: white;
-    }
-
-    .bloc-populaire{
-        width: 100%;
-        border-radius: 0px;
-    }
-
-    .popu-box {
-        display: flex;
-        justify-content: center;
-    }
-
-    .carre-02 {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .bloc-hebergements {
-        width: 100%;
-    }
-
-    .margin-top-media {
-        margin-top: 5%;
-    }
-
-    .hide-media {
-        display: none;
-    }
-
-    .margin-top-img {
-        margin-top: 10px;
-    }
-
-    .link-box {
-        flex-direction: column;
-    }
-
-    .columns {
-        flex-direction: column;
-    }
-
-    .margin-left {
-        margin-left: 5% !important;
-    }
-
-    .margin-left-media {
-        margin-left: 0px !important;
-    }
-
-    .body {
-        margin: 0px !important;
-    }
-
-    .footer {
-        margin: 0;
-        margin-top: 5%;
-    }
-
-    .recherche {
-        width: 300px;
-    }
-
-    .input {
-        width: 150px;
-    }
-
-    .column-solo {
-        height: 200px !important;
-    }
-
-    .box-port {
-        height: 80% !important;
-    }
-
-    .box-parc {
-        height: 80% !important;
-    }
 }
 
 .box-general {
@@ -686,3 +549,222 @@ $gris: #F2F2F2;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3)
 }
+
+.amina {
+    background-image: url("./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+}
+
+.le-panier {
+    background-image: url('./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg');
+}
+
+.hotel-de-la-mer {
+    background-image: url('./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg');
+}
+
+.les-mouettes {
+    background-image: url('./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg');
+}
+
+.hotel-du-port {
+    background-image: url('./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg');
+}
+
+.cannebiere {
+    background-image: url('./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg ');
+}
+
+.soleil-du-matin {
+    background-image: url('./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
+}
+
+.coeur-de-leau {
+    background-image: url('./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
+}
+
+.bleu-et-blanc {
+    background-image: url('./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
+}
+
+.img-hebergement {
+    width: 100%;
+    height: 65%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-populaire {
+    height: 100%;
+    width: 40%;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1030px) {
+    .bloc-ville {
+        width: 100%;
+    }
+
+    .bloc-populaire {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .carre-02 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .column-duo {
+        margin-top: 10px;
+    }
+
+    .test1 {
+        width: 90%;
+    }
+
+    #box-mouettes {
+        margin-top: 5%;
+    }
+
+    .liens {
+        width: 40%;
+    }
+
+    .filtres {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    body {
+        margin: 0;
+    }
+
+    .display-mobile {
+        display: flex;
+    }
+
+    .filtres {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .heber-box {
+        justify-content: center;
+    }
+
+    .liens {
+        width: 20%;
+    }
+
+    .bloc-ville {
+        width: 100%;
+        background-color: white;
+    }
+
+    .bloc-populaire{
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .popu-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carre-02 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carre-01 {
+        height: 220px;
+    }
+
+
+    .bloc-hebergements {
+        width: 100%;
+    }
+
+    .margin-top-media {
+        margin-top: 5%;
+    }
+
+    .hide-media {
+        display: none;
+    }
+
+    .margin-top-img {
+        margin-top: 10px;
+    }
+
+    .link-box {
+        flex-direction: column;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    .margin-left {
+        margin-left: 5% !important;
+    }
+
+    .margin-left-media {
+        margin-left: 0px !important;
+    }
+
+    .body {
+        margin: 0px !important;
+    }
+
+    .footer {
+        margin: 0;
+        margin-top: 5%;
+    }
+
+    .recherche {
+        width: 300px;
+    }
+
+    .input {
+        width: 150px;
+    }
+
+    .column-solo {
+        height: 200px !important;
+    }
+
+    .box-port {
+        height: 80% !important;
+    }
+
+    .box-parc {
+        height: 80% !important;
+    }
+
+    .img-hebergement {
+        height: 100%;
+    }
+
+    .popu-txt {
+        margin-top: 0px;
+    }
+
+    .plus {
+        display: none;
+    }
+}
+
+
